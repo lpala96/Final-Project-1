@@ -114,7 +114,32 @@ a {
 
 .header__input {
     display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border-style: solid;
+    border-color:rgb(226, 232, 240);
+    border-radius: 9999px;
+    border-width: 2px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    font-weight: 500;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
 
+}
+
+.btn_email {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #6415ff;
+    padding: 16px 0;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    width: 10rem;
+    border-radius: 9999px;
 }
 
 .header-label {
