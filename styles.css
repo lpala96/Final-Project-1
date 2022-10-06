@@ -110,6 +110,7 @@ a {
 
 .header__para {
     color: #274269;
+    margin: 32px 0;
 }
 
 .header__input {
@@ -163,6 +164,14 @@ a {
     height: auto;
     opacity: 0.5;
     display: block;
+}
+
+.header__sub {
+    margin-top: 80px
+}
+
+.sub__details {
+    color: #A0AEC0;
 }
 
 
