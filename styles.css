@@ -91,7 +91,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 40%;
+    width: 41%;
     height: 50%;
     margin-left: 24px;
 
@@ -114,15 +114,17 @@ a {
 
 .header__input {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
+    max-width: 28rem;
     border-style: solid;
     border-color:rgb(226, 232, 240);
     border-radius: 9999px;
     border-width: 2px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    /* padding-top: 1rem;
+    padding-bottom: 1rem; */
     padding-left: 2rem;
+    padding-right: 0.5rem;
     font-weight: 500;
     transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
     transition-duration: 300ms;
@@ -132,6 +134,7 @@ a {
 .btn_email {
     display: flex;
     justify-content: center;
+    align-items: center;
     color: white;
     background-color: #6415ff;
     padding: 16px 0;
@@ -140,6 +143,17 @@ a {
     font-weight: 700;
     width: 10rem;
     border-radius: 9999px;
+    border: none;
+}
+
+.input_email {
+    background: #ffffff;
+    font-weight: 500;
+    font-size: 100%;
+    border: none;
+    padding: 0;
+    color: rgb(226, 232, 240)
+    
 }
 
 .header-label {
